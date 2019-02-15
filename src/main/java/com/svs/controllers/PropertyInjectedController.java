@@ -3,6 +3,7 @@ package com.svs.controllers;
 import com.svs.services.GreetingService;
 import com.svs.services.GreetingServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;
 
 /**
@@ -14,9 +15,10 @@ public class PropertyInjectedController {
 
     // Concrete class name example.
     @Autowired // <- inject this
-    public GreetingServiceImpl greetingService;
+    @Qualifier("greetingServiceImpl")
+    public GreetingService greetingServiceImpl;
 
     public String sayHello() {
-        return greetingService.sayGreeting();
+        return greetingServiceImpl.sayGreeting();
     }
 }
