@@ -1,7 +1,6 @@
 package com.svs.controllers;
 
-import com.svs.services.GreetingService;
-import com.svs.services.GreetingServiceImpl;
+import com.spring.services.GreetingService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Controller;

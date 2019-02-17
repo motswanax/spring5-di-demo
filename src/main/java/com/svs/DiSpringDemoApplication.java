@@ -7,8 +7,10 @@ import com.svs.controllers.SetterInjectedController;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.spring.services", "com.svs"})
 public class DiSpringDemoApplication {
 
     public static void main(String[] args) {

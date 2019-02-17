@@ -1,6 +1,6 @@
 package com.svs.controllers;
 
-import com.svs.services.GreetingService;
+import com.spring.services.GreetingService;
 import org.springframework.stereotype.Controller;
 
 /**

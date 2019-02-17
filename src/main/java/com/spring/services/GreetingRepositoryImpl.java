@@ -1,7 +1,6 @@
-package com.svs.services;
+package com.spring.services;
 
 import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
 
 /**
  * @author BAD
