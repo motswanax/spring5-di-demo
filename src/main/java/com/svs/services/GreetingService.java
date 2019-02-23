@@ -1,4 +1,4 @@
-package com.spring.services;
+package com.svs.services;
 
 /**
  * @author BAD
