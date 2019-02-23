@@ -1,0 +1,36 @@
+# this is a comment
+
+name: BAD
+
+names:
+  - Pelo
+  - Kay
+  - Sega
+
+pound_sign: "$"
+
+book:
+  author: Bad Ass
+  publisher: random house
+
+truth: yes
+
+another_truth: True
+
+more_true: true
+
+false: no # No, false, FALSE
+
+string_val: "This is it's quote"
+
+colon_string: "My programs: this and that."
+
+include_new_lines: |
+  bad bad bad
+  hell yeah
+  what the fuck
+
+ignore_new_lines: >
+  this and that
+  is what it is
+  or not
