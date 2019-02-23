@@ -3,3 +3,10 @@
      username: JMS Username
      password: password
      url: someURL
+
+--- # this is a file separator
+spring:
+  profiles: de # this profile will override the other
+svs:
+  jms:
+    username: JMS Username **** German
