@@ -5,6 +5,7 @@ import com.svs.controllers.MyController;
 import com.svs.controllers.PropertyInjectedController;
 import com.svs.controllers.SetterInjectedController;
 import com.svs.examplebeans.FakeDataSource;
+import com.svs.examplebeans.FakeJmsBroker;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
@@ -22,6 +23,9 @@ public class DiSpringDemoApplication {
         FakeDataSource fakeDataSource = (FakeDataSource) ctx.getBean(FakeDataSource.class);
 
         System.out.println(fakeDataSource.getUser());
+
+        FakeJmsBroker fakeJmsBroker = (FakeJmsBroker) ctx.getBean(FakeJmsBroker.class);
+        System.out.println(fakeJmsBroker.getUsername());
     }
 }
 
